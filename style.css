@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(185, 206, 216);
+}
+
+.mainContainer {
+    padding: 20px;
+    background-color: rgb(154, 149, 194);
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.mainContainer h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 18px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.buttons button {
+    background-color: rgb(107, 66, 173);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.buttons .deleteTasks {
+    background-color: rgb(113, 41, 84);
+}
+
+button:hover {
+    background-color: rgb(66, 43, 102);;
+}
+
+.deleteTasks:hover {
+    background-color: rgb(73, 16, 31);;
+}
+
+#theList {
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    cursor: default;
+    transition: 0.2s;
+}
+
+ul li:hover {
+    background-color: rgb(230, 243, 252);
+    border-radius: 10px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    color: rgb(167, 164, 171);
+}
